@@ -1,5 +1,14 @@
-import "./App.css";
+import { Layout } from "../Layout/Layout";
+import { AppBar } from "../AppBar/AppBar";
+import { TaskForm } from "../TaskForm/TaskForm";
+import { TaskList } from "../TaskList/TaskList";
 
-function App() {}
-
-export default App;
+export const App = () => {
+  return (
+    <Layout>
+      <AppBar />
+      <TaskForm />
+      <TaskList />
+    </Layout>
+  );
+};
