@@ -5,8 +5,8 @@ import { TaskForm } from "../TaskForm/TaskForm";
 import { TaskList } from "../TaskList/TaskList";
 
 export const App = () => {
-  const value = useSelector((state) => state.some.value);
-
+  // const value = useSelector((state) => state.some.value);
+  // console.log(value);
   return (
     <Layout>
       <AppBar />
